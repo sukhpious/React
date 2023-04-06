@@ -1,4 +1,4 @@
-import { people } from "../data";
+import { people } from "../model/data";
 import { getImageUrl } from "../utils/utils";
 
 export default function List() {
