@@ -5,6 +5,7 @@ import PackingList from "./Features/PackingList";
 import List from "./Features/List";
 import SignUp from "./Features/SignUp";
 import { Carousel } from "./Features/Carousel";
+import { StateSnapshot } from "./Concepts/StateSnapshot";
 
 function App() {
 	return (
@@ -19,7 +20,9 @@ function App() {
 					Learn React
 				</a> */}
 				{/* <SignUp /> */}
-				<Carousel />
+				{/* <Carousel /> */}
+
+				<StateSnapshot />
 			</header>
 		</div>
 	);
