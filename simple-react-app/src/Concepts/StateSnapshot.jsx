@@ -11,11 +11,12 @@ export const StateSnapshot = () => {
 		name: "John Smith",
 		city: "Melbourne",
 	});
-
+	// update as a single function call
 	function handleCityChange(e) {
+		// create a new object
 		setPerson({
 			...person, // COPY the old one with sprad syntax
-			city: e.target.value, // change this value
+			city: e.target.value, // override this value
 		});
 	}
 	// TODO
@@ -142,6 +143,15 @@ export const StateSnapshot = () => {
 						<input value={person.city} onChange={handleCityChange} />
 					</label>
 					{person.name} lives in {person.city}
+				</section>
+				<section>
+					<h2>For Arrays use non-mutating methods: filter, map</h2>
+					<p>Add an array - use spread syntax not push and unshift</p>
+					<p>Remove an array - use filter </p>
+					<p>Transform an array - map </p>
+					<p>Replace an array - map </p>
+					<p>Insert at specific position - spread</p>
+					<p>Copy an array using spread and then use it. Dont mutate directly</p>
 				</section>
 				<section>
 					<h2>A few more...</h2>

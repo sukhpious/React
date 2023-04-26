@@ -6,6 +6,7 @@ import List from "./Features/List";
 import SignUp from "./Features/SignUp";
 import { Carousel } from "./Features/Carousel";
 import { StateSnapshot } from "./Concepts/StateSnapshot";
+import Coffee from "./Features/Coffee";
 
 function App() {
 	return (
@@ -14,7 +15,8 @@ function App() {
 			<header className="App-header">
 				{/* <img src={logo} className="App-logo" alt="logo" /> */}
 
-				{/* <Profile /> */}
+				<Profile />
+				<Profile />
 				{/* <List /> */}
 				{/* <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
 					Learn React
@@ -22,7 +24,8 @@ function App() {
 				{/* <SignUp /> */}
 				{/* <Carousel /> */}
 
-				<StateSnapshot />
+				{/* <Coffee /> */}
+				{/* <StateSnapshot /> */}
 			</header>
 		</div>
 	);
