@@ -24,7 +24,6 @@ export const Carousel = () => {
 
 	return (
 		<div>
-			<h1>{imgList.name}</h1>
 			<h3>
 				({index + 1} of {sculptureList.length})
 			</h3>
