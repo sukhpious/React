@@ -12,3 +12,15 @@ body {
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+.c-bg-lightOrange {
+	background-color: #ddcaaa;
+}
+.c-bg-lighterOrange {
+	background-color: #ddcaaa49;
+}
+.c-bg-image-main {
+	background-image: url(assets/bg-main.png);
+	min-height: 400px;
+	padding: 10px;
+}
